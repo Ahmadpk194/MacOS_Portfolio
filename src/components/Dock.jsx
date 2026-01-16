@@ -66,7 +66,6 @@ const Dock = () => {
             openWindow(app.id)
         }
 
-        console.log(windows)
      }
 
     return (

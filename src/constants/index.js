@@ -81,21 +81,21 @@ const blogPosts = [
     title:
       "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
     image: "/images/blog1.png",
-    link: "#",
+    link: "https://www.typescriptlang.org/",
   },
   {
     id: 2,
     date: "Aug 28, 2025",
     title: "The Ultimate Guide to Mastering Three.js for 3D Development",
     image: "/images/blog2.png",
-    link: "#",
+    link: "https://threejs.org/",
   },
   {
     id: 3,
     date: "Aug 15, 2025",
     title: "The Ultimate Guide to Mastering GSAP Animations",
     image: "/images/blog3.png",
-    link: "#",
+    link: "https://gsap.com/blog/",
   },
 ];
 
@@ -188,7 +188,7 @@ const photosLinks = [
 const gallery = [
   {
     id: 1,
-    img: "/images/gal1.png",
+    img: "/images/gal1.jpg",
   },
   {
     id: 2,
@@ -196,7 +196,7 @@ const gallery = [
   },
   {
     id: 3,
-    img: "/images/gal3.png",
+    img: "/images/gal3.jpg",
   },
   {
     id: 4,
@@ -251,7 +251,7 @@ const WORK_LOCATION = {
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://www.youtube.com/watch?v=DHjqpvDnNGE",
           position: "top-10 right-20",
         },
         {
@@ -304,7 +304,7 @@ const WORK_LOCATION = {
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "https://www.youtube.com/watch?v=DHjqpvDnNGE",
           position: "top-20 left-20",
         },
         {
@@ -357,7 +357,7 @@ const WORK_LOCATION = {
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+          href: "https://www.youtube.com/watch?v=DHjqpvDnNGE",
           position: "top-10 right-20",
         },
         {

@@ -12,7 +12,7 @@ const Terminal = () => {
                 <h2>Tech Stack</h2>
             </div>
 
-            <dev className="techstack">
+            <div className="techstack ">
                 <p><span className="font-bold"> @ahmad % </span> show tech stack</p>
 
                 <div className="label">
@@ -45,7 +45,7 @@ const Terminal = () => {
                         render time: 6ms
                     </p>
                 </div>
-            </dev>
+            </div>
         </>
     )
 }

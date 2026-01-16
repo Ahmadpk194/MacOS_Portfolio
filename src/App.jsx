@@ -2,11 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { Dock, Navbar, Welcome } from '#components'
+import { Dock, Home, Navbar, Welcome } from '#components'
 import gsap from 'gsap'
 
 import { Draggable } from 'gsap/Draggable';
-import { Terminal } from '#windows'
+import { Finder, Resume, Safari, Terminal, Text, Image, Contact, Photos } from '#windows'
 gsap.registerPlugin(Draggable)
 
 function App() {
@@ -18,6 +18,15 @@ function App() {
       <Dock />
 
       <Terminal />
+      <Safari/>
+      <Resume/>
+      <Finder/>
+      <Text/>
+      <Image/>
+      <Contact/>
+      <Photos/>
+
+      <Home/>
     </main>
   )
 }
